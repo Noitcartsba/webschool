@@ -1,0 +1,46 @@
+body {
+    background-color: #E8E8E8;
+	margin: 0;
+}
+ul.topnavbar {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+  
+}
+
+li.navbutton {
+    float: left;
+}
+
+a:link, a:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+	font-family: "Trebuchet MS";
+    color: #FFFFFF;
+    background-color: #7D7D7D;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+a:hover, a:active {
+    background-color: #575757;
+}
+
+table.navbar {
+    width:100%;
+    border: 0;
+    border-collapse: collapse;
+	background-color: #7D7D7D;
+}
+table.navbar th, td { 
+    padding:0;
+    border: 0;
+    border-collapse: collapse;
+}
+table.navbar th {
+    width:40px;
+}

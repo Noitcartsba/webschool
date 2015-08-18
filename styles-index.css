@@ -1,0 +1,22 @@
+
+h1.main-header {
+	font-family: "Trebuchet MS";
+	font-size: 400%;
+	color: #009933;
+	background-image: url("farm.png");
+	background-repeat: no-repeat;
+	padding: 50px;
+	margin: 0;
+}
+
+h4.calendar-head {
+	text-align:center;
+	}
+div.news{
+	font-family: "Trebuchet MS";
+	text-align:center;
+	margin: 1em;
+	padding: 0;
+	background-color: #CACACA;
+	border: 5px solid #575757;
+	}
