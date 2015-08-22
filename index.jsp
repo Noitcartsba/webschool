@@ -25,8 +25,6 @@
 		<h1>Under construction</h1>
 		<p>There will be many changes to this site in the near future</p>
 </div>
-
-
 <!-- the following will be changed or removed in the future, keeping it for reference -->
 <%
 	helper( out );
@@ -38,5 +36,4 @@
 %> number</li>
 <% } %>
 </ul>
-
 <%@include file="WEB-INF/jsp/theme/footer.jsp" %>
