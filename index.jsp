@@ -41,8 +41,19 @@
   </td>
 </tr>
 </table>
-<div class="leftnavbar">textasnfosnm fojsdofjs oidf josj fiosdjfo ijs dfoj dofj sdopfk text
-<a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a></div>
+<div class="leftnavbar">
+	textasnfosnm fojsdofjs oidf josj fiosdjfo ijs dfoj dofj sdopfk text
+	<a class="leftnav" href="about.jsp">About</a>
+	<a class="leftnav" href="about.jsp">About</a>
+	<a class="leftnav" href="about.jsp">About</a>
+	<a class="leftnav" href="about.jsp">About</a>
+	<a class="leftnav" href="about.jsp">About</a>
+	<a class="leftnav" href="about.jsp">About</a>
+	<a class="leftnav" href="about.jsp">About</a>
+	<a class="leftnav" href="about.jsp">About</a>
+	<a class="leftnav" href="about.jsp">About</a>
+	<a class="leftnav" href="about.jsp">About</a>
+</div>
 <div class="news">
 <h1>Under construction</h1>
 <p>There will be many changes to this site in the near future</p>
