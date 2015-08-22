@@ -27,25 +27,22 @@
 <link rel="stylesheet" href="styles-index.css"/>
 </head>
 <body>
-
 <h1 class= "main-header"><%= TitleBody %></h1>
-
-
-<table class="navbar">
+<table class="topnavbar">
 <tr>
   <td>
 	<ul class="topnavbar">
-  <li class="navbutton"><a href="index.jsp">Home</a></li>
-  <li class="navbutton"><a href="it-solutions.jsp">IT Solutions</a></li>
-  <li class="navbutton"><a href="minecraft.jsp">Minecraft</a></li>
-  <li class="navbutton"><a href="contact.jsp">Contact</a></li>
-  <li class="navbutton"><a href="about.jsp">About</a></li>
-  <li class="navbutton"><a href="#about">About</a></li>
+  <li class="topnavbutton"><a class="topnav" href="index.jsp">Home</a></li>
+  <li class="topnavbutton"><a class="topnav" href="it-solutions.jsp">IT Solutions</a></li>
+  <li class="topnavbutton"><a class="topnav" href="minecraft.jsp">Minecraft</a></li>
+  <li class="topnavbutton"><a class="topnav" href="contact.jsp">Contact</a></li>
+  <li class="topnavbutton"><a class="topnav" href="about.jsp">About</a></li>
 	</ul>
   </td>
 </tr>
 </table>
-<h1>News:</h1>
+<div class="leftnavbar">textasnfosnm fojsdofjs oidf josj fiosdjfo ijs dfoj dofj sdopfk text
+<a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a><a class="leftnav" href="about.jsp">About</a></div>
 <div class="news">
 <h1>Under construction</h1>
 <p>There will be many changes to this site in the near future</p>
@@ -58,10 +55,8 @@
 <h1>Under construction</h1>
 <p>There will be many changes to this site in the near future</p>
 </div>
-<div class="news">
-<h1>Under construction</h1>
-<p>There will be many changes to this site in the near future</p>
-</div>
+
+<!-- the following will be changed or removed in the future, keeping it for reference -->
 <%
 	helper( out );
 %>
@@ -72,15 +67,8 @@
 %> number</li>
 <% } %>
 </ul>
-
-
-
-<h4 class="calendar-head">Generated on: <%= sdf.format(whenNow.getTime()) %></h4>
-
+<footer><h4 class="footer">Generated on: <%= sdf.format(whenNow.getTime()) %> 
+<br> Copyright &#169; 2015 Noitcartsba.com All rights reserved. </h4>
+</footer>
 </body>
 </html>
-
-
-
-
-

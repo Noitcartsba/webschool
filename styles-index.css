@@ -1,4 +1,3 @@
-
 h1.main-header {
 	font-family: "Trebuchet MS";
 	font-size: 400%;
@@ -8,10 +7,6 @@ h1.main-header {
 	padding: 50px;
 	margin: 0;
 }
-
-h4.calendar-head {
-	text-align:center;
-	}
 div.news{
 	font-family: "Trebuchet MS";
 	text-align:center;
@@ -19,4 +14,5 @@ div.news{
 	padding: 0;
 	background-color: #CACACA;
 	border: 5px solid #575757;
+	width: 85%;
 	}

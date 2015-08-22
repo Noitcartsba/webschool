@@ -6,14 +6,11 @@ ul.topnavbar {
    list-style-type: none;
    margin: 0;
    padding: 0;
-  
 }
-
-li.navbutton {
+li.topnavbutton {
     float: left;
 }
-
-a:link, a:visited {
+a.topnav:link, a.topnav:visited {
     display: block;
     width: 120px;
     font-weight: bold;
@@ -25,22 +22,55 @@ a:link, a:visited {
     text-decoration: none;
     text-transform: uppercase;
 }
-
-a:hover, a:active {
+a.topnav:hover, a.topnav:active {
     background-color: #575757;
 }
-
-table.navbar {
+a.leftnav:link, a.leftnav:visited {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+	font-family: "Trebuchet MS";
+    color: #000000;
+    background-color: #CACACA;
+    text-align: left;
+    padding-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+	overflow: hidden;
+	margin: 0;
+	border: none;
+	
+}
+a.leftnav:hover, a.leftnav:active {
+    background-color: #575757;
+}
+table.topnavbar {
     width:100%;
     border: 0;
     border-collapse: collapse;
 	background-color: #7D7D7D;
 }
-table.navbar th, td { 
+table.topnavbar th, td { 
     padding:0;
     border: 0;
     border-collapse: collapse;
 }
-table.navbar th {
+table.topnavbar th {
     width:40px;
 }
+div.leftnavbar {
+	font-family: "Trebuchet MS";
+	text-align:left;
+	margin: 0;
+	padding: 0;
+	background-color: #CACACA;
+	border: 0;
+	width: 15%;
+	overflow:hidden;
+	padding-bottom: auto;
+	
+}
+h4.footer {
+	text-align:center;
+	font-family: "Trebuchet MS";
+	}
