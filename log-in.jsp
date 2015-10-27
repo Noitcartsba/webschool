@@ -22,18 +22,20 @@
 <%@include file="WEB-INF/jsp/theme/header.jsp" %>
 
 <div class="row">
-<div class="col-12" style="padding:60px">
-<form action="login.jsp" method="post">
-  Username:<br>
-  <input type="text" name="username" value="">
-  <br>
-  Password:<br>
-  <input type="password" name="pwd" value="">
-  <br>
-  <br>
-  <input type="submit" value="Log In">
-</form> 
-</div>
+	<div class="col-12" style="padding:60px">
+		<form action="login.jsp" method="post">
+		  Username:
+		  <br>
+			<input type="text" name="username" value="">
+		  <br>
+		  Password:
+		  <br>
+			<input type="password" name="pwd" value="">
+		  <br>
+		  <br>
+			<input type="submit" value="Log In">
+		</form> 
+	</div>
 </div>
 
 <%@include file="WEB-INF/jsp/theme/footer.jsp" %>

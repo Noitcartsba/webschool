@@ -21,18 +21,18 @@
 
 <%@include file="WEB-INF/jsp/theme/header.jsp" %>
 <div class= "row">
-<div class="col-2 sidemenu">
-	<ul class="sidemenu">
-		<li><a href="index.jsp">Home</a></li>
-		<li><a href="it-solutions.jsp">IT Solutions</a></li>
-		<li><a href="minecraft.jsp">Minecraft</a></li>
-		<li><a href="contact.jsp">Contact</a></li>
-		<li><a href="about.jsp">About</a></li>
-		<li><a href="sign-up.jsp">Sign Up</a></li>
-		<li><a href="log-in.jsp">Log In</a></li>
-		
-	</ul>
-</div>
+	<div class="col-2 sidemenu">
+		<ul class="sidemenu">
+			<li><a href="index.jsp">Home</a></li>
+			<li><a href="it-solutions.jsp">IT Solutions</a></li>
+			<li><a href="minecraft.jsp">Minecraft</a></li>
+			<li><a href="contact.jsp">Contact</a></li>
+			<li><a href="about.jsp">About</a></li>
+			<li><a href="sign-up.jsp">Sign Up</a></li>
+			<li><a href="log-in.jsp">Log In</a></li>
+			
+		</ul>
+	</div>
 </div>
 
 <img src="farm.png" title="my farm in minecraft" width="1280" height="720">
