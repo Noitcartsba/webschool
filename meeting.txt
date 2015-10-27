@@ -1,1 +1,0 @@
-the way the css is written now is in such that it attempts to align the elements next to each other instead of in a layered fashion. i need to correct this into a format where the elements are layered before moving on to add a logon page/add links to the header for logging out and creating an account.
