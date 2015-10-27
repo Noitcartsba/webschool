@@ -3,7 +3,7 @@
 <%@ page import="java.text.SimpleDateFormat" %>
 <%!
 	final String TitleHead = "Noit Home";
-	final String TitleBody = "About Me";
+	final String TitleBody = "Log In";
 	
 	protected void helper(final JspWriter out) throws IOException  {
 		out.print("<p>");
@@ -20,18 +20,20 @@
 %>
 
 <%@include file="WEB-INF/jsp/theme/header.jsp" %>
-<div class= "row">
-<div class="col-2 sidemenu">
-	<ul class="sidemenu">
-		<li><a href="index.jsp">Home</a></li>
-		<li><a href="it-solutions.jsp">IT Solutions</a></li>
-		<li><a href="minecraft.jsp">Minecraft</a></li>
-		<li><a href="contact.jsp">Contact</a></li>
-		<li><a href="about.jsp">About</a></li>
-		<li><a href="sign-up.jsp">Sign Up</a></li>
-		<li><a href="log-in.jsp">Log In</a></li>
-		
-	</ul>
+
+<div class="row">
+<div class="col-12" style="padding:60px">
+<form action="login.jsp" method="post">
+  Username:<br>
+  <input type="text" name="username" value="">
+  <br>
+  Password:<br>
+  <input type="password" name="pwd" value="">
+  <br>
+  <br>
+  <input type="submit" value="Log In">
+</form> 
 </div>
 </div>
+
 <%@include file="WEB-INF/jsp/theme/footer.jsp" %>

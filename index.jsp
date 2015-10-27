@@ -20,12 +20,34 @@
 %>
 
 <%@include file="WEB-INF/jsp/theme/header.jsp" %>
-
-<div class="news">
-		<h1>Under construction</h1>
-		<p>There will be many changes to this site in the near future</p>
+<div class= "row">
+<div class="col-2 sidemenu">
+	<ul class="sidemenu">
+		<li><a href="index.jsp">Home</a></li>
+		<li><a href="it-solutions.jsp">IT Solutions</a></li>
+		<li><a href="minecraft.jsp">Minecraft</a></li>
+		<li><a href="contact.jsp">Contact</a></li>
+		<li><a href="about.jsp">About</a></li>
+		<li><a href="sign-up.jsp">Sign Up</a></li>
+		<li><a href="log-in.jsp">Log In</a></li>
+		
+	</ul>
 </div>
-<!-- the following will be changed or removed in the future, keeping it for reference -->
+<div class="col-10" style="padding:10px;">
+		<h1>Under construction</h1>
+		<p>There will be many changes to this site in the near future but for now i want to test the thingy so yeah.
+		There will be many changes to this site in the near future but for now i want to test the thingy so yeah.
+		There will be many changes to this site in the near future but for now i want to test the thingy so yeah.
+		There will be many changes to this site in the near future but for now i want to test the thingy so yeah.
+		There will be many changes to this site in the near future but for now i want to test the thingy so yeah.
+		There will be many changes to this site in the near future but for now i want to test the thingy so yeah. </p>
+		
+</div>
+
+</div>
+
+<!-- the following will be changed or removed in the future, keeping it for reference 
+<div class="col-3">
 <%
 	helper( out );
 %>
@@ -36,4 +58,6 @@
 %> number</li>
 <% } %>
 </ul>
+</div>
+-->
 <%@include file="WEB-INF/jsp/theme/footer.jsp" %>

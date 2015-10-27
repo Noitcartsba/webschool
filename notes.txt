@@ -1,0 +1,101 @@
+
+ul.topnavbar {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   width: 100%;
+   background-color: #7D7D7D;
+}
+li.topnavbutton {
+    float: left;
+}
+a.topnav:link, a.topnav:visited {
+    display: block;
+    width: 120px;
+    font-weight: bold;
+	font-family: "Trebuchet MS";
+    color: #FFFFFF;
+    background-color: #7D7D7D;
+    text-align: center;
+    padding: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+a.topnav:hover, a.topnav:active {
+    background-color: #575757;
+}
+a.leftnav:link, a.leftnav:visited {
+    display: block;
+    width: 100%;
+    font-weight: bold;
+	font-family: "Trebuchet MS";
+    color: #000000;
+    background-color: #CACACA;
+    text-align: left;
+    padding-left: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+	overflow: hidden;
+	margin: 0;
+	border: none;
+	
+}
+a.leftnav:hover, a.leftnav:active {
+    background-color: #575757;
+}
+div.leftnavbar {
+	font-family: "Trebuchet MS";
+	text-align:left;
+	margin: 0;
+	padding: 0;
+	background-color: #CACACA;
+	border: 0;
+	width: 150px;
+	overflow:hidden;
+	float: right;
+}
+.news{
+	font-family: "Trebuchet MS";
+	text-align:center;
+	background-color: #CAEACA;
+	float: left;
+	margin: 0;
+	padding: 0;
+	}
+
+	h4.footer {
+	text-align:center;
+	font-family: "Trebuchet MS";
+	clear: both;
+	}
+h1.main-header {
+	font-family: "Trebuchet MS";
+	font-size: 400%;
+	color: #009933;
+	background-image: url("farm.png");
+	background-repeat: no-repeat;
+	padding: 50px;
+	margin: 0;
+}
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title><%= TitleHead %></title>
+<link rel="stylesheet" href="styles.css"/>
+<link rel="stylesheet" href="styles-index.css"/>
+</head>
+<body>
+
+<div class="col-12 header"><%= TitleBody %></div>
+<div class="row"></div>
+
+<div class="col-3"
+	<ul class="col-12 topmenu">
+		<li class="topmenu"><a class="topmenu" href="index.jsp">Home</a></li>
+		<li class="topmenu"><a class="topmenu" href="it-solutions.jsp">IT Solutions</a></li>
+		<li class="topmenu"><a class="topmenu" href="minecraft.jsp">Minecraft</a></li>
+		<li class="topmenu"><a class="topmenu" href="contact.jsp">Contact</a></li>
+		<li class="topmenu"><a class="topmenu" href="about.jsp">About</a></li>
+	</ul>
