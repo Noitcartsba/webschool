@@ -7,22 +7,24 @@
 </head>
 <body>
 <div class="row">
-<div class="col-12 header"><%= TitleBody %></div>
+	<div class="col-12 header"><%= TitleBody %></div>
 </div>
 
 <div class="row">
-<div class="col-12 topmenu">
-	<ul class="topmenu">
-		<li><a href="index.jsp">Home</a></li>
-		<li><a href="it-solutions.jsp">IT Solutions</a></li>
-		<li><a href="minecraft.jsp">Minecraft</a></li>
-		<li><a href="contact.jsp">Contact</a></li>
-		<li><a href="about.jsp">About</a></li>		
-	</ul>
-	<ul class="topmenu" style="float:right;">
-		<li><a href="sign-up.jsp">Sign Up</a></li>
-		<li><a href="log-in.jsp">Log In</a></li>
+	<div class="col-12 topmenu">
 		
-	</ul>
-</div>
+		<ul class="topmenu">
+			<li><a href="index.jsp">Home</a></li>
+			<li><a href="it-solutions.jsp">IT Solutions</a></li>
+			<li><a href="minecraft.jsp">Minecraft</a></li>
+			<li><a href="contact.jsp">Contact</a></li>
+			<li><a href="about.jsp">About</a></li>		
+		</ul>
+		
+		<ul class="topmenu" style="float:right;">
+			<li><a href="sign-up.jsp">Sign Up</a></li>
+			<li><a href="log-in.jsp">Log In</a></li>
+		</ul>
+		
+	</div>
 </div>
